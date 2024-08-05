@@ -28,10 +28,7 @@
         "humidity": "45",
         "sol": true,
         "nublado": false,
-        "lloviendo": false,
-        "imageSun": "./asset/soleado.png",
-        "imageNublado": "./assets/nublado.png",
-        "imageLluvia": "./assets/lluvia.png"
+        "lloviendo": false
       },
       {
         "id": 4,
