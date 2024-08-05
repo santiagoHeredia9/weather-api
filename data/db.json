@@ -1,0 +1,111 @@
+{
+    "ArgentinaStateWeathers": [
+      {
+        "id": 1,
+        "city": "Buenos Aires",
+        "grade": "14",
+        "wind": "23",
+        "humidity": "81",
+        "sol": false,
+        "nublado": true,
+        "lloviendo": false
+      },
+      {
+        "id": 2,
+        "city": "Córdoba",
+        "grade": "18",
+        "wind": "16",
+        "humidity": "36",
+        "sol": true,
+        "nublado": false,
+        "lloviendo": false
+      },
+      {
+        "id": 3,
+        "city": "Tucuman",
+        "grade": "18",
+        "wind": "10",
+        "humidity": "45",
+        "sol": true,
+        "nublado": false,
+        "lloviendo": false,
+        "imageSun": "./asset/soleado.png",
+        "imageNublado": "./assets/nublado.png",
+        "imageLluvia": "./assets/lluvia.png"
+      },
+      {
+        "id": 4,
+        "city": "Tierra del Fuego",
+        "grade": "-2",
+        "wind": "10",
+        "humidity": "71",
+        "sol": false,
+        "nublado": true,
+        "lloviendo": false
+      },
+      {
+        "id": 5,
+        "city": "San Juan",
+        "grade": "19",
+        "wind": "14",
+        "humidity": "19",
+        "sol": true,
+        "nublado": false,
+        "lloviendo": false
+      },
+      {
+        "id": 6,
+        "city": "San Luis",
+        "grade": "19",
+        "wind": "13",
+        "humidity": "24",
+        "sol": true,
+        "nublado": false,
+        "lloviendo": false
+      },
+      {
+        "id": 7,
+        "city": "Chaco",
+        "grade": "24",
+        "wind": "6",
+        "humidity": "68",
+        "sol": false,
+        "nublado": false,
+        "lloviendo": true
+      },
+      {
+        "id": 8,
+        "city": "Formosa",
+        "grade": "22",
+        "wind": "18",
+        "humidity": "40",
+        "sol": false,
+        "nublado": true,
+        "lloviendo": false
+      },
+      {
+        "id": 9,
+        "city": "Santa Fe",
+        "grade": "16",
+        "wind": "10",
+        "humidity": "81",
+        "sol": false,
+        "nublado": false,
+        "lloviendo": true
+      },
+      {
+        "id": 10,
+        "city": "Rio Negro",
+        "grade": "19",
+        "wind": "11",
+        "humidity": "67",
+        "sol": true,
+        "nublado": false,
+        "lloviendo": false
+      }
+    ],
+    "total": 100,
+    "skip": 0,
+    "limit": 30
+  }
+  
