@@ -8,7 +8,8 @@
         "humidity": "81",
         "sol": false,
         "nublado": true,
-        "lloviendo": false
+        "lloviendo": false,
+        "image": "/public/images/nublado.png"
       },
       {
         "id": 2,
@@ -18,7 +19,8 @@
         "humidity": "36",
         "sol": true,
         "nublado": false,
-        "lloviendo": false
+        "lloviendo": false,
+        "image": "/public/images/soleado.png"
       },
       {
         "id": 3,
@@ -28,7 +30,8 @@
         "humidity": "45",
         "sol": true,
         "nublado": false,
-        "lloviendo": false
+        "lloviendo": false,
+        "image": "/public/images/soleado.png"
       },
       {
         "id": 4,
@@ -38,7 +41,8 @@
         "humidity": "71",
         "sol": false,
         "nublado": true,
-        "lloviendo": false
+        "lloviendo": false,
+        "image": "/public/images/nublado.png"
       },
       {
         "id": 5,
@@ -48,7 +52,8 @@
         "humidity": "19",
         "sol": true,
         "nublado": false,
-        "lloviendo": false
+        "lloviendo": false,
+        "image": "/public/images/soleado.png"
       },
       {
         "id": 6,
@@ -58,7 +63,8 @@
         "humidity": "24",
         "sol": true,
         "nublado": false,
-        "lloviendo": false
+        "lloviendo": false,
+        "image": "/public/images/soleado.png"
       },
       {
         "id": 7,
@@ -68,7 +74,8 @@
         "humidity": "68",
         "sol": false,
         "nublado": false,
-        "lloviendo": true
+        "lloviendo": true,
+        "image": "/public/images/lluvia.png"
       },
       {
         "id": 8,
@@ -78,7 +85,8 @@
         "humidity": "40",
         "sol": false,
         "nublado": true,
-        "lloviendo": false
+        "lloviendo": false,
+        "image": "/public/images/nublado.png"
       },
       {
         "id": 9,
@@ -88,7 +96,8 @@
         "humidity": "81",
         "sol": false,
         "nublado": false,
-        "lloviendo": true
+        "lloviendo": true,
+        "image": "/public/images/lluvia.png"
       },
       {
         "id": 10,
@@ -98,7 +107,8 @@
         "humidity": "67",
         "sol": true,
         "nublado": false,
-        "lloviendo": false
+        "lloviendo": false,
+        "image": "/public/images/soleado.png"
       }
     ],
     "total": 100,
