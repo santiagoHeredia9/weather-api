@@ -58,8 +58,8 @@ app.get("/api/weather", (req, res) => {
   });
 });
 
-app.get("/api/weather/:city", (req, res) => {
-  const city = req.params.city;
+app.get("/api/weather/:id", (req, res) => {
+  const cityId = req.params.id;
   fs.readFile(path.join(__dirname, "data", "db.json"), "utf-8", (err, data) => {
     if (err) {
       res.status(500).send("Error reading data");
@@ -68,7 +68,7 @@ app.get("/api/weather/:city", (req, res) => {
 
     const weatherData = JSON.parse(data);
     const cityWeather = weatherData.ArgentinaStateWeathers.find(
-      (weather) => weather.city.toLowerCase() === city.toLowerCase()
+      (weather) => weather.id === cityId
     );
 
     if (cityWeather) {
