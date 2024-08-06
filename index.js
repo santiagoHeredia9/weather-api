@@ -59,22 +59,22 @@ app.get("/api/weather", (req, res) => {
 });
 
 app.get("/api/weather/:id", (req, res) => {
-  const cityId = req.params.id;
+  const id = parseInt(req.params.id, 10); // Convertir el parámetro de ruta a número entero
   fs.readFile(path.join(__dirname, "data", "db.json"), "utf-8", (err, data) => {
     if (err) {
-      res.status(500).send("Error reading data");
+      res.status(500).json({ error: "Error reading data" });
       return;
     }
 
     const weatherData = JSON.parse(data);
     const cityWeather = weatherData.ArgentinaStateWeathers.find(
-      (weather) => weather.id === cityId
+      (weather) => weather.id === id
     );
 
     if (cityWeather) {
       res.json(cityWeather);
     } else {
-      res.status(404).send("City not found");
+      res.status(404).json({ error: "City not found" });
     }
   });
 });
